@@ -9,4 +9,4 @@ jobs:
     - name: Slack Notification
       uses: rtCamp/action-slack-notify@v2
       env:
-        SLACK_WEBHOOK: ${{ https://hooks.slack.com/services/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 }}
+        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
